@@ -139,7 +139,7 @@ function generate3WComponent(config,data,geom){
                 .group(function (d) {
                     return d[config.whatFieldName];
                 })
-                .size(650)
+                .size(650) //number of lines
                 .columns([ //#org, #adm1+name, #adm2+name #adm3+name #adm4+name, #status, #sector+subsector #activity+type #targeted #reached
                     function (d) {
                        return d['#org']; 
@@ -185,7 +185,7 @@ function generate3WComponent(config,data,geom){
         .attr('text-anchor', 'middle')
         .attr('x', $('#hdx-3W-who').width()/2)
         .attr('y', 200)
-        .text('Activities');
+        .text('Activites');
 
     var g = d3.selectAll('#hdx-3W-what').select('svg').append('g');
     
@@ -194,7 +194,7 @@ function generate3WComponent(config,data,geom){
         .attr('text-anchor', 'middle')
         .attr('x', $('#hdx-3W-what').width()/2)
         .attr('y', 200)
-        .text('Activities');
+        .text('Activites');
 
     var g = d3.selectAll('#hdx-3W-status').select('svg').append('g');
     
@@ -203,7 +203,7 @@ function generate3WComponent(config,data,geom){
         .attr('text-anchor', 'middle')
         .attr('x', $('#hdx-3W-status').width()/2)
         .attr('y', 150)
-        .text('Activities');
+        .text('Activites');
 
 }
 
