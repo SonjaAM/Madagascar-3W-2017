@@ -9,7 +9,7 @@ var config = {
     whatFieldName:"#sector",
     whereFieldName:"#adm3+code",
     statusFieldName:"#status",
-    geo:"data/mdgAdm3.json",
+    geo:"data/mdgAdm3_forEditing1.json",
     joinAttribute:"P_CODE",
     colors:['#ef8f8f','#9a181a','#841517','#ef8f8f','#6e1113','#580e0f','#420a0b','#2c0708']
 };
