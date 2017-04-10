@@ -1,3 +1,7 @@
+h2 {
+    margin-top: 10px;
+}
+
 .dc-chart g.row text {
     fill: black;
     font-size:0.8em;
@@ -37,7 +41,7 @@
     padding-bottom: 15px;
 }
 
-#count-info {
+#count-info #clickToInteract #description {
     padding-top: 5px;
 }
 
