@@ -25,11 +25,20 @@
 }
 
 #header{
-    padding-bottom:20px;
+    padding-bottom:10px;
     border-bottom-color: #dddddd;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    margin-bottom:20px;
+    margin-bottom:10px;
+}
+
+#subheader{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#count-info {
+    padding-top: 5px;
 }
 
 .container{
