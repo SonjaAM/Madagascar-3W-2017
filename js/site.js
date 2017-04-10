@@ -11,7 +11,7 @@ var config = {
     statusFieldName:"#status",
     geo:"data/mdgAdm3.json",
     joinAttribute:"P_CODE",
-    colors:['#81d4fa','#4fc3f7','#29b6f6','#03a9f4','#039be5','#0288d1','#0277bd','#01579b']
+    colors:['#b01c1e','#9a181a','#841517','#7f1416','#6e1113','#580e0f','#420a0b','#2c0708']
 };
 
 // hxlProxyToJSON: reading hxl tags and setting them as keys for each event
